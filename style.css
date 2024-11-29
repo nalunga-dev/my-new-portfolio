@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,458 +8,348 @@
 }
 body {
   font-family: "Poppins", serif;
-  background-color: rgb(5, 5, 5);
-  /* background-color: green; */
-  /* min-height: 100vh; */
-}
-.main {
-  max-width: 1200px;
-  width: 100%;
-  min-height: 100vh;
-  background-color: rgb(5, 5, 5);
-  position: relative;
-  /* background-color: red; */
+  background-color: #0a0a0a;
+  max-width: 1030px;
+  min-height: 400vh;
   margin: 0 auto;
 }
-.main-section {
-  width: 100%;
-  height: 50vh;
-  color: white;
-  padding-top: 5px;
-  display: flex;
-  gap: 3px;
-  /* background-color: blue; */
-}
 .first-section {
-  width: 70%;
-  border: 0.2px solid rgba(99, 95, 95, 0.233);
-  background-color: rgba(0, 0, 0, 0.404);
-  border-radius: 10px;
-  padding: 5px 5px;
-  /* background-color: yellow; */
-  /* margin-left: 3.2rem; */
-}
-.milka {
-  width: 7px;
-  height: 10px;
-  object-fit: cover;
-}
-.sub1 {
-  padding-top: 6px;
+  width: 100%;
+  height: 60vh;
+  margin-top: 3.5rem;
   display: flex;
-  gap: 3.5rem;
+  gap: 1.5rem;
 }
-.milka2 {
-  display: flex;
-  gap: 3px;
-}
-.milka4 {
-  display: flex;
-  justify-content: space-between;
-  gap: 2px;
-}
-.milka3 {
-  /* font-size: 3px; */
-  color: grey;
-}
-.milka1 {
-  /* font-size: 3.5px; */
-  font-weight: bold;
-  color: white;
-}
-
-.tube {
-  border: none;
-  background-color: black;
-  color: white;
-  border-radius: 3px;
-  border: 0.2px solid rgba(99, 95, 95, 0.233);
-  height: 10px;
-  width: 10px;
-  text-align: center;
-  /* font-size: 6px; */
-}
-
-.twit {
-  border: none;
-  background-color: black;
-  color: white;
-  border-radius: 3px;
-  border: 0.2px solid rgba(99, 95, 95, 0.233);
-  height: 10px;
-  width: 10px;
-  text-align: center;
-  /* font-size: 6px; */
-}
-.touch {
-  border: none;
-  background-color: black;
-  color: white;
-  border-radius: 2px;
-  border: 0.2px solid rgba(99, 95, 95, 0.233);
-  /* font-size: 3px; */
-  padding: 0.3px 4px;
-}
-.sub2 {
+.first1-section {
+  background-color: #0d0d0d;
+  width: 68%;
+  height: 56vh;
+  border-radius: 3.5rem;
+  padding: 3rem;
+  border: 0.5px solid rgba(50, 50, 50, 0.877);
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  align-items: center;
+  gap: 2rem;
 }
-.woild {
-  /* font-size: 8px; */
-  margin-top: 3px;
+.first101 {
+  display: flex;
+  gap: 12rem;
+}
+.milka {
+  display: flex;
+  gap: 1rem;
+}
+.headman {
+  width: 35px;
+  height: 45px;
+  object-fit: cover;
+}
+.milka1 {
+  color: white;
+}
+.milka2 {
+  color: gray;
 }
 
-.woild2 {
-  font-family: "Satisfy", cursive;
-}
-.woild3 {
-  color: grey;
-}
-.second-section {
-  width: 30%;
-  /* font-size: 10px; */
-  border: 0.2px solid rgba(99, 95, 95, 0.233);
-  background-color: rgba(0, 0, 0, 0.404);
+.button1 {
   border-radius: 10px;
-  position: relative;
+  border: 0.5px solid rgba(47, 46, 46, 0.442);
+  padding: 10px 10px;
+  background-color: #0d0d0d;
+  color: white;
+}
+.bxl-twitter {
+  border-radius: 10px;
+  border: 0.5px solid rgba(47, 46, 46, 0.442);
+  padding: 10px 8px;
+  background-color: #0d0d0d;
+  color: white;
+}
+.bxl-youtube {
+  border-radius: 10px;
+  border: 0.5px solid rgba(55, 54, 54, 0.442);
+  padding: 10px 8px;
+  background-color: #0d0d0d;
+  color: white;
+}
+.first102 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.framer {
+  color: white;
+  font-size: 2rem;
+}
+.framer1 {
+  font-family: "Mr Dafoe", cursive;
+}
+.framer2 {
+  color: grey;
+  font-size: 1rem;
+}
+.first2-section {
+  background-color: #0d0d0d;
+  width: 32%;
+  height: 56vh;
+  border-radius: 3.5rem;
+  border: 0.5px solid rgba(50, 50, 50, 0.898);
+  display: flex;
+  align-items: end;
+  justify-content: center;
 }
 .praying {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-  position: absolute;
-}
-.best {
-  color: grey;
-  /* font-size: 2.5px; */
-  text-align: center;
-  margin-top: 10px;
-}
-.third-section {
   width: 75%;
-  padding: 5px 5px;
-  /* margin-left: 3.2rem; */
-  color: azure;
-  padding: 8px 10px;
+  height: 80%;
+  object-fit: cover;
+}
+.second-section {
   display: flex;
-  gap: 20px;
+  flex-direction: column;
+  gap: 2rem;
 }
-.toggle {
+.second2 {
   display: flex;
-  gap: 2px;
+  justify-content: cover;
+  gap: 2rem;
 }
-.bxs-toggle-right {
-  /* font-size: 8px; */
-  color: rgb(241, 237, 237);
-}
-.toggle1 {
-  font-weight: normal;
-  /* font-size: 5.5px; */
-}
-
-.unique {
-  font-family: "Satisfy", cursive;
-  /* font-size: 5px; */
-  font-weight: normal;
+.second1 {
+  text-align: center;
+  color: grey;
+  font-size: 0.8rem;
 }
 .milano {
   display: flex;
-  gap: 2px;
+  gap: 5px;
 }
 .milano1 {
-  color: black;
   background-color: white;
-  /* font-size: 4px; */
-  width: 7px;
-  height: 6px;
+  padding: 2px 2px;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 0.8rem;
   text-align: center;
-  font-weight: normal;
 }
 .milano2 {
   color: white;
-  /* font-size: 3.8px; */
+  font-size: 1rem;
   font-weight: normal;
 }
 .cloud {
   display: flex;
-  gap: 2px;
+  gap: 5px;
 }
 .bx-cloud {
   color: white;
-  /* font-size: 8px; */
+  font-size: 1.5rem;
 }
 .cloud1 {
-  /* font-size: 5.5px; */
-  font-weight: normal;
+  color: grey;
+  font-size: 1.1rem;
 }
-.sav {
-  /* font-size: 5.5px; */
+.cloud2 {
+  color: white;
+  font-size: 1rem;
 }
-.fourth-section {
-  width: 75%;
-  height: 52vh;
-  border: 0.2px solid rgba(99, 95, 95, 0.233);
-  background-color: rgba(0, 0, 0, 0.404);
-  border-radius: 10px;
-  padding: 5px 5px;
-  /* margin-left: 3.2rem; */
+.Amster {
   display: flex;
-  gap: 2px;
+  gap: 5px;
 }
-.fouth-section {
-  width: 75%;
-  height: 52vh;
-  border: 0.2px solid rgba(99, 95, 95, 0.233);
-  background-color: rgba(0, 0, 0, 0.404);
-  border-radius: 10px;
-  padding: 5px 5px;
-  /* margin-left: 3.2rem; */
-  display: flex;
-  gap: 2px;
-  margin-top: 10px;
+.bxs-toggle-left {
+  color: white;
+  font-size: 1.5rem;
 }
-
-.fourth1 {
-  width: 36%;
-  height: 43vh;
+.Amster1 {
+  color: white;
+  font-size: 1rem;
 }
-.man {
-  height: 100%;
+.Amster2 {
+  color: white;
+  font-family: "Mr Dafoe", cursive;
+  font-size: 1rem;
+}
+.third-section {
+  margin-top: 3rem;
+  background-color: #0d0d0d;
   width: 100%;
-  object-fit: contain;
+  height: 60vh;
+  border-radius: 3.5rem;
+  padding: 3rem;
+  border: 0.5px solid rgba(50, 50, 50, 0.877);
+  display: flex;
+  justify-content: space-between;
 }
-.fouth2 {
-  width: 64%;
-  height: 50vh;
-  padding-top: 8px;
+.third-section1 {
+  display: flex;
+  justify-content: centre;
+  align-items: center;
+}
+.man2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.third2 {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 2rem;
 }
 .diff {
   color: white;
-  /* font-size: 9px; */
+  font-size: 2.5rem;
   font-weight: normal;
 }
 .diff1 {
-  color: grey;
-  /* font-size: 3.8px; */
-  width: 99%;
-}
-.diff10 {
-  color: white;
-  /* font-size: 3.8px; */
-  width: 99%;
-}
-.diff7 {
-  display: flex;
-  gap: 2px;
-}
-.start {
-  border: none;
-  background-color: black;
-  color: white;
-  border-radius: 2px;
-  border: 0.2px solid rgba(99, 95, 95, 0.233);
-  /* font-size: 2px; */
-  padding: 0.3px 3px;
-}
-.start0 {
-  font-weight: normal;
-  /* font-size: 3.5px; */
-}
-.diff8 {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  padding-bottom: 5px;
-}
-.diff9 {
-  display: flex;
-  gap: 3px;
-}
-.start1 {
-  /* font-size: 3px; */
+  font-family: "Mr Dafoe", cursive;
 }
 .diff2 {
-  font-family: "Satisfy", cursive;
-  width: 90%;
+  color: grey;
+  font-size: 1rem;
 }
-.browse {
-  border: none;
+.diff3 {
+  border-radius: 10px;
+  border: 0.5px solid rgba(47, 46, 46, 0.442);
+  padding: 10px 10px;
+  background-color: #0d0d0d;
   color: white;
-  border-radius: 3px;
-  border: 0.2px solid rgba(99, 95, 95, 0.233);
-  background-color: black;
-  /* font-size: 3.5px; */
-  padding: 2px 2px;
-  width: 35%;
-}
-.browse2 {
-  border: none;
-  color: white;
-  border-radius: 3px;
-  border: 0.2px solid rgba(99, 95, 95, 0.233);
-  background-color: black;
-  /* font-size: 3px; */
-  padding: 1px 2px;
-  width: 99%;
+  width: 10rem;
+  font-weight: bold;
 }
 .bx-right-arrow-alt {
-  /* font-size: 4px; */
+  color: white;
+  font-size: 1rem;
+  width: 1rem;
+}
+.fourth-section {
+  display: flex;
+  gap: 1rem;
 }
 .fifth-section {
-  padding-top: 10px;
   display: flex;
-  gap: 6px;
-}
-.fifth1 {
-  width: 37.9%;
-  height: 52vh;
-  border: 0.2px solid rgba(99, 95, 95, 0.233);
-  background-color: rgba(0, 0, 0, 0.404);
-  border-radius: 10px;
-  padding: 5px 5px;
-  /* margin-left: 3.2rem; */
-  background: linear-gradient(115deg, #811b1b, #1c1b1c);
+  gap: 1rem;
   position: relative;
 }
-.fifth2 {
-  width: 37.9%;
-  height: 52vh;
-  border: 0.2px solid rgba(99, 95, 95, 0.233);
-  background-color: rgba(0, 0, 0, 0.404);
-  border-radius: 10px;
-  padding: 5px 5px;
-  background: linear-gradient(to bottom, #9a2ef6, black);
-  position: relative;
+.fourth1-section {
+  background-color: #0d0d0d;
+  width: 52%;
+  height: 65vh;
+  border-radius: 3.5rem;
+  border: 0.5px solid rgba(50, 50, 50, 0.898);
+  margin-top: 2rem;
 }
-.fifth3 {
-  width: 37.9%;
-  height: 52vh;
-  border: 0.2px solid rgba(99, 95, 95, 0.233);
-  background-color: rgba(0, 0, 0, 0.404);
-  border-radius: 10px;
-  padding: 5px 5px;
-  /* margin-left: 3.2rem; */
-  background: linear-gradient(to bottom, #9a2ef6, black);
-  position: relative;
+.fourth2-section {
+  background-color: #0d0d0d;
+  width: 52%;
+  height: 65vh;
+  border-radius: 3.5rem;
+  border: 0.5px solid rgba(50, 50, 50, 0.898);
+  margin-top: 2rem;
 }
-.fifth4 {
-  width: 37.9%;
-  height: 52vh;
-  border: 0.2px solid rgba(99, 95, 95, 0.233);
-  background-color: rgba(0, 0, 0, 0.404);
-  border-radius: 10px;
-  padding: 5px 5px;
-  background: linear-gradient(115deg, #3b3a3d, #0c0a0c);
-  position: relative;
-}
-.red1 {
+.fourth1a {
   width: 100%;
   height: 100%;
+  border-radius: 3.5rem;
   object-fit: cover;
-  position: relative;
-}
-.red2 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: relative;
 }
 .sixth-section {
   position: absolute;
-  left: 12;
-  bottom: 5px;
+  bottom: 15;
+  right: 10;
 }
-.sixo {
+.sixth1 {
+  color: white;
+  font-size: 1rem;
   display: flex;
+  gap: 1rem;
 }
-.bxs-right-top-arrow-circle {
-  font-size: 3px;
-}
-.six1 {
-  font-size: 5px;
-  color: white;
-}
-.six2 {
-  font-size: 3.5px;
-  color: white;
-}
-.cliente {
-  color: white;
-  font-size: 7px;
-  text-align: center;
-}
-.cliente1 {
+.bxs-left-top-arrow-circle {
   color: grey;
+  font-size: 1.8rem;
 }
-.cliente2 {
+.sixth3 {
   color: white;
-  font-size: 3px;
-  text-align: center;
-}
-.cliente3 {
-  color: grey;
-  font-size: 2.5px;
-  text-align: center;
-}
-.cliente4 {
-  text-align: center;
-  padding-bottom: 10px;
-}
-.cliente5 {
-  color: white;
-  text-align: center;
-  font-size: 2.5px;
-}
-.cliente6 {
-  color: grey;
-}
-.last {
-  padding-top: 10px;
-  display: flex;
-  flex-direction: column;
 }
 .seventh-section {
+  background-color: #0d0d0d;
+  width: 100%;
+  height: 60vh;
+  border-radius: 3.5rem;
+  border: 0.5px solid rgba(50, 50, 50, 0.898);
+  margin-top: 5rem;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.seventha-section {
   display: flex;
   flex-direction: column;
-  gap: 1px;
+  gap: 2rem;
 }
-.framer {
-  position: absolute;
-  bottom: 60px;
-  right: 0px;
-  position: fixed;
+.seventh1 {
+  color: white;
+  font-size: 1.8rem;
+}
+.seventh2 {
+  font-family: "Mr Dafoe", cursive;
+}
+.seventh3 {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 0.5rem;
 }
-.framer2 {
-  background-color: rgb(243, 239, 239);
-  color: rgb(73, 72, 72);
-  font-size: 2px;
-  width: 35px;
-  border: none;
-  border-radius: 2px;
-  border: 0.2px solid rgba(99, 95, 95, 0.233);
-  font-size: 3px;
-  font-weight: bold;
-  padding: 2px 2px;
+.seventh4 {
+  display: flex;
+  gap: 0.5rem;
 }
-.framer1 {
-  background-color: rgb(17, 17, 17);
-  color: #f8f5f8;
-  font-size: 2px;
-  width: 35px;
-  border: none;
-  border-radius: 2px;
-  border: 0.2px solid rgba(99, 95, 95, 0.233);
-  font-size: 4px;
-  padding: 2px 2px;
+.seventh5 {
+  color: white;
+  font-weight: normal;
+  font-size: 1rem;
 }
-.bxl-figma {
-  color: black;
-  font-size: 3px;
+.seventh6 {
+  border-radius: 10px;
+  border: 0.5px solid rgba(47, 46, 46, 0.442);
+  padding: 0.5px 5px;
+  background-color: #0d0d0d;
+  color: white;
+  font-size: 0.5rem;
+}
+.seventh7 {
+  color: grey;
+  font-size: 0.8rem;
+}
+.seventh2a {
+  display: flex;
+  gap: 1rem;
+}
+.bx-right-arrow-alt {
+  color: white;
+  font-size: 1rem;
+}
+.seventh8 {
+  border-radius: 10px;
+  border: 0.5px solid rgba(47, 46, 46, 0.442);
+  padding: 8px;
+  background-color: #0d0d0d;
+  color: white;
+  font-size: 1rem;
+}
+.praying1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.eigth-section {
+  margin-top: 4rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+}
+.eigth1 {
+  color: gray;
 }
